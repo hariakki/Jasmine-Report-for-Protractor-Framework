@@ -1,7 +1,7 @@
 {
   "name": "jasmine-html-detail-report",
   "version": "1.0.0",
-  "description": "This project is for generating step by step reports for UI Automation",
+  "description": "This project is for generating detailed json and html report.",
   "main": "index.js",
   "dependencies": {
     "path":"^0.12.7",
@@ -23,6 +23,14 @@
     "html",
     "detail report"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepaksusarla/jasmine-html-detail-report.git"
+  },
   "author": "Deepak Kumar Susarla",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaksusarla/jasmine-html-detail-report/issues"
+  },
+  "homepage": "https://github.com/deepaksusarla/jasmine-html-detail-report#readme"
 }
