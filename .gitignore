@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+Test_Results/
+nbproject/
+.DS_Store

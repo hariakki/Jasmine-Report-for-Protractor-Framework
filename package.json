@@ -1,0 +1,28 @@
+{
+  "name": "jasmine-html-detail-report",
+  "version": "1.0.0",
+  "description": "This project is for generating step by step reports for UI Automation",
+  "main": "index.js",
+  "dependencies": {
+    "path":"^0.12.7",
+    "lodash": "^3.10.1",
+    "dateformat": "^1.0.12",
+    "mkdirp": "^0.5.1"
+
+  },
+  "devDependencies": {
+    "protractor":"^5.1.1"
+  },
+  "scripts": {
+    "setup": "npm install && webdriver-manager update && webdriver-manager start",
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "html",
+    "detail report"
+  ],
+  "author": "Deepak Kumar Susarla",
+  "license": "MIT"
+}

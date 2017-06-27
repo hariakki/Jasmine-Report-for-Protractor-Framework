@@ -1,2 +1,5 @@
 # jasmine-html-detail-report
-This project is for generating step by step reports in UI Automation for protractor
+This project is for generating detailed json and html report.
+
+How to use it?
+todo
