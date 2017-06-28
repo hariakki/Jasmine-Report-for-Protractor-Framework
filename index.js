@@ -13,10 +13,12 @@ const Reporter=function (options) {
     if(options.savePath===undefined){
         throw new Error("Save path is not set. Please set save path in conf.js ...");
     }
-    dirPath=options.savePath;
-    rmdir(options.savePath, options.fileName);
-    return new JasmineReports(options);
+    if(options.removeResultsDirectory){
+        dirPath=options.savePath;
+        rmdir(options.savePath, options.fileName);
+    }
 
+    return new JasmineReports(options);
 };
 module.exports.Reporter=Reporter;
 

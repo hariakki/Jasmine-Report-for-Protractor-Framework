@@ -52,6 +52,7 @@ exports.config = {
 
         const options={
             savePath:'Test_Results',
+            removeResultsDirectory:true,
             takeScreenshotsOnPass:false,
             takeScreenshotsOnFailures:true,
             fileName:'index',
