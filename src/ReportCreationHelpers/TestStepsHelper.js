@@ -213,7 +213,7 @@ const TestSteps = function () {
         let screenShotPath = '';
         if (viewScreenShotOnFailure) {
             const filePath=await utils.filesSavePath(self.getTestCaseName());
-            screenShotPath = await utils.getScreenShot(screenShotSavePath+"/"+filePath.savePath,self.getTestCaseName()+"--"+ StepDesc + "-"+step_fail_count);
+            screenShotPath = await utils.getScreenShot(screenShotSavePath+"/"+filePath.savePath,self.getTestCaseName()+"-"+step_fail_count);
         }
         else {
             screenShotPath = null;
