@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "path": "^0.12.7",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.20",
     "dateformat": "^1.0.12",
     "mkdirp": "^0.5.1"
   },
